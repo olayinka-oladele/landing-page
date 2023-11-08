@@ -1,207 +1,205 @@
-
-
 * {
   margin: 0;
   padding: 0;
 }
 
-:root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #45567d;
-  --main-gray: #303841;
-}
-
-body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.1;
-  color: #f0f0f0;
-}
-
-a {
-  text-decoration: none;
-  color: #f0f0f0;
-}
-
-ul {
-  list-style: none;
-}
-
-.nav-hero {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin:auto;
-  padding-top: 20px;
-}
-
-.nav-list-item {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-content: start;
-}
-
-.container{
- background-color: #1f2937;
- height: 80%
-}
-
-h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-p {
-  font-size: 12px;
-  color: black;
-}
-
-.azt {
-  line-height: 50px;
-}
-
-.hero {
-    color: white;
-    font-weight: 1px;
-    font-size: 14px;
-    margin-top: 0;
-    line-height: 15px;
-}
-
-.welcome-section-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 70rem;
-  line-height: 1.5rem;
-  margin: auto;
-}
-
-.image {
-  background-color: gray;
+.primary-bg {
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: yellow;
+}
+
+.edit-me {
+  background-color: #1f2937;
+  height: 500px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 160px;
-  width: 25rem;
 }
 
-.btn {
-  padding: 4px;
-  margin-top: 10px;
-  background-color: blue;
-  width: 90px;
-  height: 30px;
-  border: none;
-  color: white;
-  border-radius: 5px;
-}
-
-.section-header {
+.header-container {
+  width: 80px;
+  height: 80px;
   display: flex;
-  justify-content: center;
-  color: black;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.projects-grid {
-  background-color: #F9FAF8;
-  padding-bottom: 40px;          
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
-.border {
-  height: 90px;
-  width: 90px;
-  border: 2px solid blue;
-  border-radius: 10%;
-  margin-right: 30px;
+.header-nav-container li {
+  list-style-type: none;
+}
+
+.header-logo {
+  width: 40%;
 }
 
 .flex {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 35px;
+  width: 40%;
 }
 
-.quote-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #E5E7EB;
-  font-style: italic;
-  font-weight: light;
-  font-size: 52px;
-  height: 170px;
+.main-hero {
   display: flex;
-  justify-content: center;
+}
+
+.second-header-container {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 300px;
 }
 
-.info-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-  font-weight: none;
+.section-header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
 }
 
-.right {
-  color: black;
-  font-size: 10px;
-  padding-top: 100px;
-  margin-right: 250px;
-  margin-left: 2px;
+.section-info {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
 }
 
-.border- {
-  display: flex;
-  justify-content: center;
+.web-info {
+  width: 30%;
+}
+
+.btn {
+  border-style: none;
   background-color: blue;
+  color: white;
   border-radius: 10px;
-  height: 140px;
-  margin-top: 50px;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 50px;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
 }
 
-h4 {
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-.sign-up-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.image-section {
+  width: 40%;
+  height: 80%;
+  background-color: grey;
+  border: 50px;
   display: flex;
   align-items: center;
-  color: #E5E7EB;
-  margin-right: 10%;
-  margin-left: 15%;
-  margin-left: 1em;
+  justify-content: center;
 }
 
-.sign-up {
-  padding: 3px;
-  margin-top: 50px;
+.section-a {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+}
+
+.section-b {
+  height: 80%;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.section-header-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+.alt {
+  border: 3px solid blue;
+  width: 85%;
+  height: 130px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-c {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  background-color: rgb(212 223 227);
+}
+
+.text-sec-c {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+  width: 65%;
+  font-style: italic;
+}
+
+.section-d {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section-d {
+  background-color: blue;
+  height: 150px;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+h3 p {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container {
+  margin-right: 20px;
+}
+
+.btn-2 {
   background-color: blue;
   border: 2px solid white;
-  color: white;
   border-radius: 10px;
-  height: 32px;
-  width: 110px;
+  color: white;
+  width: 200%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
 }
 
-nav {
+.section-e {
+  height: 100px;
   background-color: #1f2937;
-  height: 80px;
-}
-
-.Odin-project {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.odin-project {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
   color: white;
-  font-weight: 0;
-  padding-bottom: 50px;
-  padding-top: 50px;
 }
