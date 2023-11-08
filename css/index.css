@@ -165,12 +165,8 @@ p {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-}
-
-h3 p {
-  color: white;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .btn-container {
@@ -188,6 +184,28 @@ h3 p {
   align-items: center;
   justify-content: center;
   margin-top: 55px;
+}
+
+.text-a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 45px;
+  margin-left: 25px;
+}
+
+.text-b {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+  margin-right: 0.2rem;
 }
 
 .section-e {
