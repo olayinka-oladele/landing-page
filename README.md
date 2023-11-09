@@ -1,6 +1,6 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This is one of Odin-projects to earn your certification, and for your product landing page to market a product of your choice.
 
 ![screenshot](./app_screenshot.png)
 
@@ -70,9 +70,10 @@ yarn hint
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@olayinka-oladele](https://github.com/olayinka-oladele)
+- Freecodecamp: [@olayinka-oladele](https://freecodecamp.com/author)
+- Linkedin: [@olayinka-oladele](https://www.linkedin.com/in/author/)
+- Instagram: [@olayinka-oladele](https://instagram.com/drhappylinkolayinka?igshid=YWYwM2I1ZDdmOQ==)
 
 ## 🤝 Contributing
 
