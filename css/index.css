@@ -17,7 +17,7 @@
 }
 
 .header-container {
-  width: 80px;
+  width: 80%;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,9 @@
 .header-nav-container {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
 }
 
 .header-nav-container li {
@@ -35,7 +37,9 @@
 }
 
 .header-logo {
-  width: 40%;
+  width: 55%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
 }
 
 .flex {
@@ -79,7 +83,7 @@
 }
 
 .image-section {
-  width: 40%;
+  width: 50%;
   height: 80%;
   background-color: grey;
   border: 50px;
