@@ -1,9 +1,241 @@
-/* Example of @import use
-This imports the `reset.css` file */
-@import "./reset.css";
+* {
+  margin: 0;
+  padding: 0;
+}
 
-/* For testing purposes, delete this code */
-body {
-  font-size: max(20vw, 400px);
-  width: min(20vw, 400px);
+.primary-bg {
+  color: white;
+  background-color: yellow;
+}
+
+.edit-me {
+  background-color: #1f2937;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.header-nav-container li {
+  list-style-type: none;
+}
+
+.header-logo {
+  width: 55%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.flex {
+  width: 40%;
+}
+
+.main-hero {
+  display: flex;
+}
+
+.second-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 300px;
+  margin-top: 3.5em;
+}
+
+.section-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.section-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.web-info {
+  width: 35%;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: none;
+  background-color: #3b82f6;
+  color: rgb(233 235 235);
+  border-radius: 7px;
+  padding: 8px 30px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #3b82f6;
+}
+
+.image-section {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-a {
+  background-color: white;
+  width: 100%;
+  height: 350px;
+}
+
+.section-b {
+  height: 80%;
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.section-b-edit {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.section-header-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+img {
+  width: 95%;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.section-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbbcbd;
+  width: 100%;
+  height: 350px;
+}
+
+.quote-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  width: 780px;
+}
+
+.quote-author {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 600px;
+}
+
+.section-d {
+  background-color: white;
+  height: 400px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  height: 120px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.third-section-d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3b82f6;
+  width: 80%;
+}
+
+.btn-2 {
+  background-color: #3b82f6;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-2:hover {
+  background-color: white;
+  color: #3b82f6;
+}
+
+.text-a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
+.text-b {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section-e {
+  height: 100px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.odin-project {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: white;
 }
