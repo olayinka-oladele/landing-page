@@ -1,6 +1,6 @@
 # Project Name
 
-> This is one of Odin-projects to earn your certification, and for your product landing page to market a product of your choice.
+> This is one of Odin-projects to earn your certification, and for your project training that can make you stand out among programer.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,21 @@ Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 form elements
+- `h1`,`h2`,`p`, `section`, `form`, `btn`, `div`, `span`
+- `footer`, `lu`, `ìnput`, `li`, `quote-text`,.
+- CSS properties
+- CSS Background for page aesthetic using background-color, `background-image`,
+  `box-shadow`, `background-position`,
+  background-repeat
+  `text-shadow`, etc.
+- `CSS Typography properties font-size`, `font-style`, `font-family`, `text-align`, `color`, etc
+- `CSS Box Model properties padding`, `margin`, `width`,`line-height`, `box-sizing`,`border`
+  `main-hero`, `web-info` etc
+- CSS Positioning properties
+  `position`, `relative`, , `blocked`,etc.
+- CSS Transitioning properties
+  `transition`.
 
 ## Live Demo
 
@@ -21,7 +33,7 @@ Additional description of the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git https://github.com/olayinka-oladele/landing-page.git
 
 ```
 
@@ -65,8 +77,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
-- [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
@@ -87,9 +97,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- https://www.theodinproject.com/lessons/foundations-landing-page
 
 ## 📝 License
 

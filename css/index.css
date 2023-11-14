@@ -75,21 +75,24 @@
 
 .btn {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   font-weight: bold;
   border-style: none;
-  background-color: blue;
-  color: white;
-  border-radius: 10px;
-  width: 10em;
-  height: 40px;
-  margin-top: 15px;
+  background-color: #3b82f6;
+  color: rgb(233 235 235);
+  border-radius: 7px;
+  padding: 8px 30px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #3b82f6;
 }
 
 .image-section {
   width: 50%;
-  height: 80%;
-  background-color: grey;
-  border: 50px;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,12 +106,19 @@
 
 .section-b {
   height: 80%;
-  width: 600px;
+  width: 650px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
+}
+
+.section-b-edit {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .section-header-b {
@@ -120,77 +130,83 @@
   margin-top: 35px;
 }
 
-.alt {
-  border: 3px solid blue;
-  width: 85%;
-  height: 130px;
+img {
+  width: 95%;
+  height: 200px;
   margin-top: 20px;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 10px;
+figcaption {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
 }
 
 .section-c {
   display: flex;
-  justify-content: center;
-  height: 350px;
-  background-color: rgb(212 223 227);
-}
-
-.text-sec-c {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 36px;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #1f2937;
-  width: 65%;
+  background-color: #bbbcbd;
+  width: 100%;
+  height: 350px;
+}
+
+.quote-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
   font-style: italic;
+  width: 780px;
+}
+
+.quote-author {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 600px;
 }
 
 .section-d {
   background-color: white;
   height: 400px;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .second-section-d {
-  background-color: blue;
-  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  height: 120px;
   width: 70%;
   border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
 }
 
-.btn-container {
-  margin-right: 20px;
+.third-section-d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3b82f6;
+  width: 80%;
 }
 
 .btn-2 {
-  background-color: blue;
+  background-color: #3b82f6;
   border: 2px solid white;
   border-radius: 10px;
   color: white;
-  width: 200%;
-  height: 30px;
+  padding: 8px 22px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 55px;
+}
+
+.btn-2:hover {
+  background-color: white;
+  color: #3b82f6;
 }
 
 .text-a {
@@ -198,21 +214,16 @@ p {
   font-size: 22px;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: flex-start;
-  margin-top: 45px;
-  margin-left: 25px;
 }
 
 .text-b {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: flex-start;
-  margin-top: 80px;
-  margin-right: 0.2rem;
+  justify-content: flex-start;
 }
 
 .section-e {
